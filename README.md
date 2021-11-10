@@ -32,6 +32,6 @@ chmod +x setup.sh
 Befor launch the program insert the target information in the target.ini file. 
 Then:</p>
 
-<code>./start</code>
+<code>./start.sh</code>
 
 <p>&nbsp;</p>

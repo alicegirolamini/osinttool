@@ -33,13 +33,13 @@ clear
 		;;
 		
 	
-	2)    
-	gnome-terminal -- /bin/sh -c  \
-  'apt-get install wget && wget https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/installkali.sh && bash installkali.sh
-; sigit ;clear;exec bash' \
-  sh "$username"
-	
+	2)  sudo apt-get install wget && wget https://raw.githubusercontent.com/termuxhackers-id/SIGIT/main/installkali.sh && bash installkali.sh
+	clear
+gnome-terminal -- /bin/sh -c  \
+  'sigit; exec bash' \
       clear     
+		
+	    
 		
 		;;
         3) if [ -d spiderfoot ]; then

@@ -23,7 +23,7 @@ read -p ">> " INPUT_STRING
   sh "$username"
               else git clone https://github.com/sherlock-project/sherlock.git
 gnome-terminal -- /bin/sh -c  \
-  'cd sherlock;python3 -m pip install -r requirements.txt; python3 sherlock.py "$1" -all;exec bash' \
+  'cd sherlock;python3 -m pip install -r requirements.txt; python3 sherlock "$1" -all;exec bash' \
   sh "$email"
 fi
 clear

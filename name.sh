@@ -65,6 +65,8 @@ clear
         echo ""
         echo https://intelx.io/;;
         echo ""
+	
+	;;
 
         6) clear
         echo ""

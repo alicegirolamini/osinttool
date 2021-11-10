@@ -8,9 +8,9 @@ domain=$(awk -F "=" '/domain/ {print $2}' target.ini)
 
 tput bold
 echo ""
-echo -en '\E[31m'"             \        / __       __  __        __
+echo -en "             \        / __       __  __        __
               \  /\  / |__  |   |   |  | |\/| |__
-               \/  \/  |__  |__ |__ |__| |  | |__\n" 
+               \/  \/  |__  |__ |__ |__| |  | |__" 
 tput sgr0 
 echo ""
 while :

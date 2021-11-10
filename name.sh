@@ -63,7 +63,7 @@ clear
 ;;
         5) clear
         echo ""
-        echo https://intelx.io/;;
+        echo https://intelx.io/
         echo ""
 	
 	;;

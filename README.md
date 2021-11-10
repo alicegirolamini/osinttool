@@ -15,12 +15,10 @@ Obtains information from:</p>
 
 <p>How Install:</p>
 <pre>
-<code>
-git clone https://github.com/alicegirolamini/osinttool 
+<code>git clone https://github.com/alicegirolamini/osinttool 
 cd osinttool 
 chmod +x setup.sh 
-./setup.sh 
-</code>
+./setup.sh </code>
 </pre>
 
 

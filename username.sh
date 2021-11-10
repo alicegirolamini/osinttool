@@ -36,7 +36,7 @@ clear
   sh "$username"
 	else git clone https://github.com/soxoj/maigret
               gnome-terminal -- /bin/sh -c  \
-  'cd maigret;pip3 install -r requirements.txt; python3 maigret.py "$1" -all;exec bash' \
+  'cd maigret;pip3 install -r requirements.txt; python3 maigret.py "$1";exec bash' \
   sh "$email"
             
 fi

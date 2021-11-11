@@ -8,7 +8,7 @@ domain=$(awk -F "=" '/domain/ {print $2}' target.ini)
 
 tput bold
 echo ""
-echo -en "             \        / __       __  __        __
+echo  "             \        / __       __  __        __
               \  /\  / |__  |   |   |  | |\/| |__
                \/  \/  |__  |__ |__ |__| |  | |__" 
 tput sgr0 

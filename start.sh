@@ -5,7 +5,7 @@ email=$(awk -F "=" '/email/ {print $2}' target.ini)
 number=$(awk -F "=" '/number/ {print $2}' target.ini)
 username=$(awk -F "=" '/username/ {print $2}' target.ini)
 domain=$(awk -F "=" '/domain/ {print $2}' target.ini)
-
+clear
 tput bold
 echo ""
 echo  "             \        / __       __  __        __
